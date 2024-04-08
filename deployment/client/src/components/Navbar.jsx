@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from '../assets/img/logo.png'
 
 const Navbar = () => {
@@ -13,8 +14,9 @@ const Navbar = () => {
               height="35"
               className="d-inline-block align-text-top"
             />
-            Bootstrap
+            Diabetes-CDC
           </a>
+          <Link className='btn btn-outline-primary m-2' to="/inputdata">Diabetes Prediction</Link>
         </div>
       </nav>
     </div>

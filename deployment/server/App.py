@@ -43,6 +43,33 @@ def predict():
         elif bmi_group >= 35:
             bmi_group = 5
 
+        if age >= 18 and age <= 24:
+            age = 1
+        elif age >= 25 and age <= 29:
+            age = 2
+        elif age >= 30 and age <= 34:
+            age = 3
+        elif age >= 35 and age <= 39:
+            age = 4
+        elif age >= 40 and age <= 44:
+            age = 5
+        elif age >= 45 and age <= 49:
+            age = 6
+        elif age >= 50 and age <= 54:
+            age = 7
+        elif age >= 55 and age <= 59:
+            age = 8
+        elif age >= 60 and age <= 64:
+            age = 9
+        elif age >= 65 and age <= 69:
+            age = 10
+        elif age >= 70 and age <= 74:
+            age = 11
+        elif age >= 75 and age <= 79:
+            age = 12
+        elif age >= 80:
+            age = 13
+
         data_list = [
             [
                 high_bp,

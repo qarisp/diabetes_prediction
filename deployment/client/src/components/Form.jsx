@@ -350,7 +350,7 @@ const Form = () => {
               Submit
             </button>
             <Link className="btn btn-outline-danger mx-2" to="/">
-              Cancel
+              Back
             </Link>
           </form>
         </div>
